@@ -1,0 +1,36 @@
+name: firebase_chat_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  # firebase
+  firebase_core: ^0.5.0+1
+  
+  # Add the dependencies for any other Firebase products you want to use in your app
+  # For example, to use Firebase Authentication and Cloud Firestore
+  cloud_firestore: ^0.14.1+3
+  google_fonts: any
+  font_awesome_flutter: any
+  intl: ^0.17.0
+
+  firebase_storage: any
+  firebase_analytics: ^5.0.6
+  image_picker:
+  path: ^1.8.0  
+  
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
